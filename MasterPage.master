@@ -1,0 +1,54 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table border="0" cellpadding="0" cellspacing="0" height="37" style="width: 1289px;
+            border-collapse: collapse">
+            <tr>
+                <td align="left" style="width: 128px; height: 146px; background-color: #ffffff">
+                    <asp:Image ID="Image13" runat="server" Height="152px" ImageUrl="~/images/advertising_company11.jpg"
+                        Width="201px" /></td>
+                <td align="right" colspan="5" style="border-left-color: black; border-bottom-color: black;
+                    width: 386px; color: #ffffff; border-top-color: black; height: 146px; background-color: #000000;
+                    border-right-color: black">
+                    <br />
+                    <asp:Image ID="Image1" runat="server" Height="137px" ImageUrl="~/images/Untitled.jpg"
+                        Width="914px" /></td>
+                <td align="center" colspan="1" style="border-left-color: black; border-bottom-color: black;
+                    width: 386px; color: #ffffff; border-top-color: black; height: 146px; background-color: #ffffff;
+                    border-right-color: black">
+                    &nbsp;<asp:ImageButton ID="ImageButton1" runat="server" Height="46px" ImageUrl="~/images/logout.jpg"
+                        OnClick="ImageButton1_Click" Width="83px" /><br />
+                    &nbsp;<asp:ImageButton ID="ImageButton2" runat="server" Height="63px" ImageUrl="~/images/homebutton.jpg"
+                        OnClick="ImageButton2_Click" Width="78px" /></td>
+            </tr>
+        </table>
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            &nbsp; &nbsp;&nbsp;
+        </asp:contentplaceholder>
+        <table style="width: 1291px">
+            <tr>
+                <td colspan="3" style="width: 1313px; height: 32px; background-color: firebrick">
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="3" style="width: 1313px">
+                    © 2011 IndianAdvertisement.com<br />
+                    Developed By:- Nishtha Dutta</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="width: 1313px; height: 32px; background-color: firebrick">
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
